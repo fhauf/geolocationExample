@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" type="text/css" href="assignment15.css"> -->
+    </head>
+    <body>
+        <button id = "find-me">Show my location</button><br/>
+        <p id = "status"></p>
+        
+        <iframe
+            id="map"
+            width="800"
+            height="500"
+            hidden="true"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDwjfqbhj3Fw8SlwgIuDC5ApbRyhdXrR1Y&q=current+location" allowfullscreen>
+        </iframe>
+    </body>
+    <script src="geolocation.js"></script>
+</html>
